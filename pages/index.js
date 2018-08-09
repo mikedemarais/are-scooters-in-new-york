@@ -32,7 +32,7 @@ const Page = ({ footerText }) => (
         </p>
       </div>
       <footer className="footer centered section">
-        <span>{footerText}</span>
+        <span>{footerTextDict[Math.floor(Math.random() * footerTextDict.length)]}</span>
         <span className="hide-mobile">&nbsp;</span>
         <a href="//twitter.com/hipcityreg">@hipcityreg</a>
         <span className="hide-mobile">&nbsp;</span>
